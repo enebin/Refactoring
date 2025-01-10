@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - 1
-class Exercise {
+class ComposingMethod_Exercise {
     struct Order {
         let id: String
         let items: [Item]
@@ -56,7 +56,7 @@ class Exercise {
 }
 
 // MARK: - 2
-extension Exercise {
+extension ComposingMethod_Exercise {
     func calculateShippingCosts(orders: [Order]) -> Double {
         var totalShippingCost = 0.0
         var heavyItemCount = 0
@@ -100,7 +100,7 @@ extension Exercise {
 }
 
 // MARK: - 3
-extension Exercise {
+extension ComposingMethod_Exercise {
     struct Sale {
         let sellerID: String
         let amount: Double
